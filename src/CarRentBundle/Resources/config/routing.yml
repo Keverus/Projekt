@@ -1,3 +1,7 @@
 car_rent_homepage:
     path:     /
     defaults: { _controller: CarRentBundle:Default:index }
+
+car_rent_cars:
+    path:     /car
+    defaults: { _controller: CarRentBundle:Default:car }

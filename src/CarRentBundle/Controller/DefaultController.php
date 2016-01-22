@@ -10,4 +10,9 @@ class DefaultController extends Controller
     {
         return $this->render('CarRentBundle:Default:index.html.twig');
     }
+	
+	public function carAction()
+    {
+        return $this->render('CarRentBundle:Default:car.html.twig');
+    }
 }
