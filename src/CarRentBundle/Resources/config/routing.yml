@@ -5,3 +5,43 @@ car_rent_homepage:
 car_rent_cars:
     path:     /car
     defaults: { _controller: CarRentBundle:Default:car }
+
+car_rent_cars_osobowe:
+    path:     /car/osobowe
+    defaults: { _controller: CarRentBundle:Default:osobowe }
+
+car_rent_cars_dostawcze:
+    path:     /car/dostawcze
+    defaults: { _controller: CarRentBundle:Default:dostawcze }
+
+car_rent_cars_popularne:
+    path:     /car/popularne
+    defaults: { _controller: CarRentBundle:Default:popularne }
+
+car_rent_cars_oceniane:
+    path:     /car/oceniane
+    defaults: { _controller: CarRentBundle:Default:oceniane }
+
+car_rent_warunki:
+    path:     /warunki
+    defaults: { _controller: CarRentBundle:Default:warunki }
+
+car_rent_cars_1:
+    path:     /car/1
+    defaults: { _controller: CarRentBundle:Default:os1 }
+
+car_rent_cars_2:
+    path:     /car/2
+    defaults: { _controller: CarRentBundle:Default:os2 }
+
+car_rent_cars_3:
+    path:     /car/3
+    defaults: { _controller: CarRentBundle:Default:os3 }
+
+car_rent_cars_4:
+    path:     /car/4
+    defaults: { _controller: CarRentBundle:Default:do1 }
+
+car_rent_cars_5:
+    path:     /car/5
+    defaults: { _controller: CarRentBundle:Default:do2 }
